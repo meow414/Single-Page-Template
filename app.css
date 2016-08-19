@@ -1,0 +1,148 @@
+body{
+  background-color:#EF5C54;
+   color:white;
+}
+.white{
+  color:white;
+}
+a:link{
+  color:white;
+}
+.carousel-inner > .item > img{
+  width:100%;
+  margin:0 auto;
+}
+
+.glyphicon-thumbs-up,.glyphicon-magnet,.glyphicon-sunglasses{
+   background-image: url("http://www.meghdootlaminart.com/images/sandwhich/Sandwich%20Colour%20Core%20Laminates.jpg");
+  width:80px;
+  height:80px;
+}
+.bg-1{
+  padding-bottom:30px;
+}
+.bg-2{
+ background-color:#1c1c1c;
+  padding-bottom:30px;
+}
+.dev{
+  border:5px solid #65e679;
+}
+.bg-3{
+  background-color:#65e679;
+  padding-bottom:30px;
+}
+.green{
+ color: #65e679;
+}
+.col-md-3{
+   width:220px;
+}
+.bg-4{
+  background-image:url(http://www.wampstore.com/store/image/cache/data/Wamp/Products/Vallejo/pale%20grey-900x900.jpg);
+  background-color:#E2D6BE;
+  padding-bottom:30px;
+
+}
+.pricingh{
+  margin:0px;
+  color:black;
+}
+.pricingi{
+  background-color:#374047;
+  color:white;
+}
+.btn{
+ color:black;
+}
+.greenbg{
+ background-color:#65e679;
+}
+.pricingr{
+  color:#F57979;
+}
+.pricingri{
+  background-color:#F57979;
+}
+.row-5{
+  background:url(http://www.wampstore.com/store/image/cache/data/Wamp/Products/Vallejo/pale%20grey-900x900.jpg);
+  background-repeat:repeat-x;
+  max-height:167px;
+  padding-top:70px;
+ }
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.bg-5{
+  background-color:white;
+
+}
+.row-6{
+  background:url(https://s-media-cache-ak0.pinimg.com/736x/17/3a/0b/173a0b9048fd72a15232acf72d1932de.jpg);
+  background-repeat:repeat-x;
+  height:250px;
+
+}
+footer{
+  background-color:black;
+}
+#map_container{
+  position: relative;
+}
+#map{
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 22.25%;
+    padding-top: 30px;
+    position: relative;
+}
+.bg-0{
+  border:none;
+  background-color:#FF6861;
+  height:90px;
+  padding-top:20px;
+}
+.black{
+  background-color:black;
+
+}
+.bt{
+  color:black;
+}
+@media(min-width:992px){
+  .row{
+  width:70%;
+  margin:0 auto;
+}
+  .navbar-brand{
+  margin-left:300px;
+  font-size:28px;
+
+}
+.nav-pills{
+  margin-right:300px;
+ }
+ }
+@media(max-width:767px){
+   .col-sm-3{
+   margin:5px auto;
+}
+  .col-sm-4 {
+    width:220px;
+    margin:5px auto;
+  }
+  .navbar-brand{
+
+  margin-left:20%;
+  font-size:20px;
+    margin-bottom:10%;
+ text-align:center;
+}
+.nav-pills{
+
+  margin-left:10%;
+
+}
+}

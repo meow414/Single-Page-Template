@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="app.css">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script src="app.js"></script>
+</head>
+<body>
+<nav>
+  <div class="container-fluid  bg-0 ">
+    <a class="navbar-brand" href="#">Motion<br/><h4><small class="white">A single Page Template  </small></h4></a>
+    <ul class="nav nav-pills pull-right">
+      <li role="presentation" class=" img-rounded black"><a href="#home">Home</a></li>
+      <li role="presentation"><a href="#about">About</a></li>
+      <li role="presentation"><a href="#team">Team</a></li>
+      <li role="presentation"><a href="#portfolio">Portfolio</a></li>
+      <li role="presentation"><a href="#other">Other</a></li>
+      <li role="presentation"><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<div id="home" class="container bg-1">
+  <h1 class="text-center">Welcome to Motion<br/><h4 class='text-center'><small class="white">A smart & Creative Single Page Template</small></h4></h1>
+
+  <div id="main" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#main" data-slide-to="0" class="active"></li>
+      <li data-target="#main" data-slide-to="1"></li>
+      <li data-target="#main" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="http://www.tarashe.com/images/arash/Galaxy-S6-edge-vs-iPhone-6.jpg" alt="item1">
+      </div>
+      <div class="item">
+        <img src="http://www.pakmobileprice.com/wp-content/uploads/2015/02/VAIO-Smartphone1.jpg" alt="item2">
+
+      </div>
+      <div class="item">
+        <img src="http://www.pakmobileprice.com/wp-content/uploads/2015/03/Nokia-N1-Tablet.jpg" alt="item3">
+
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#main" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#main" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+</div>
+
+<div id="about" class="container-fluid bg-2">
+  <h2 class="text-center">Smart and Creative<br/><small class="pricingr">This is why you will use it:)</small></h2>
+  <ul class="list-inline text-center">
+    <div class="row">
+      <div class="col-xs-4 col-md-4">
+        <li>
+          <h2 class="glyphicon glyphicon-thumbs-up img-circle "></h2>
+          <h3>Multi purpose<br/><small class="pricingr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></h3></li>
+      </div>
+      <div class="col-xs-4 col-md-4">
+        <li>
+          <h2 class="glyphicon glyphicon-magnet img-circle"></h2>
+          <h3>Flat UI<br/><small class="pricingr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></h3></li>
+      </div>
+      <div class="col-xs-4 col-md-4">
+        <li>
+          <h2 class="glyphicon glyphicon-sunglasses img-circle"></h2>
+          <h3>Creative Design<br/><small class="pricingr">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></h3></li>
+      </div>
+    </div>
+  </ul>
+</div>
+<div id="team" class="container-fluid bg-3">
+  <h2 class="text-center">Talented & Experts<br/><small>This is our team :)</small></h2>
+  <div class=" row text-center">
+
+    <div class=" col-sm-3 col-md-3">
+      <div class="thumbnail">
+        <img src="https://blog.mailchimp.com/wp-content/themes/mc-blog-theme/assets/images/portraits/author_512x512/neel_s.jpg" alt="Alex" class="img-circle img-responsive dev" width="130px" height="130px">
+        <div class="caption">
+          <h3 class="green">Alex Sharma</h3>
+          <p class="pricingr">Senior UI Designer</p>
+          <p><a href="#" class="btn greenbg" role="button">Follow</a></p>
+        </div>
+      </div>
+    </div>
+    <div class=" col-sm-3 col-md-3">
+      <div class="thumbnail">
+        <img src="https://cdn-images-2.medium.com/max/400/1*awrHXrP2RzLdZCcEH7-o5g.png" alt="Neel" class="img-circle img-responsive dev" width="130px" height="130px">
+        <div class="caption">
+          <h3 class="green">Neel Verma</h3>
+          <p class="pricingr">Senior App Developer</p>
+          <p><a href="#" class="btn greenbg" role="button">Follow</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 col-md-3">
+      <div class="thumbnail">
+        <img src="http://selleo.com/wp-content/uploads/2015/10/testimonial-enterprise.png" alt="Quincy" class="img-circle img-responsive dev" width="130px" height="130px">
+        <div class="caption">
+          <h3 class="green">Quincy Larson</h3>
+          <p class="pricingr">Senior Graphic Designer</p>
+          <p><a href="#" class="btn greenbg" role="button">Follow</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 col-md-3">
+      <div class="thumbnail">
+        <img src="http://www.edenscott.com/sites/default/files/styles/medium/public/WEB%20SIZE%20(200px%20150ppi)%20CMPL0183-Edit.jpg?itok=5MxT7tTz" alt="Matt" class="img-circle img-responsive dev" width="130px" height="130px">
+        <div class="caption">
+          <h3 class="green">Matt Lee</h3>
+          <p class="pricingr">Senior Webdeveloper</p>
+          <p><a href="#" class=" btn greenbg " role="button">Follow</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="portfolio" class="container-fluid bg-4">
+  <h2 class="text-center bt">Elegant & Genuine<br/><small class="green">This is how our works looks like</small></h2>
+  <div class="row text-center">
+
+    <div id="work" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#work" data-slide-to="0" class="active"></li>
+        <li data-target="#work" data-slide-to="1"></li>
+        <li data-target="#work" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+
+        <div class="item active">
+          <ul class="list-inline products">
+
+            <div class="col-xs-3">
+              <li><img src="http://i.imgur.com/Fk6eWEm.gif" alt="product1" class="img-responsive"></li><small>Product 1</small></div>
+            <div class="col-xs-3">
+              <li><img src="http://i.imgur.com/Fk6eWEm.gif" alt="product2" class="img-responsive"></li><small>Product 2</small></div>
+            <div class="col-xs-3">
+              <li><img src="http://i.imgur.com/Fk6eWEm.gif" alt="product3" class="img-responsive"></li><small>Product 3</small></div>
+            <div class="col-xs-3">
+              <li><img src="http://i.imgur.com/Fk6eWEm.gif" alt="product4" class="img-responsive"></li><small>Product 4</small></div>
+          </ul>
+        </div>
+        <div class="item">
+          <ul class="list-inline products">
+
+            <div class="col-xs-3">
+              <li><img src="http://i.imgur.com/Fk6eWEm.gif" alt="product5" class="img-responsive"></li><small>Product 5</small></div>
+            <div class="col-xs-3">
+              <li><img src="http://i.imgur.com/Fk6eWEm.gif" alt="product6" class="img-responsive"></li><small>Product 6</small></div>
+            <div class="col-xs-3">
+              <li><img src="http://i.imgur.com/Fk6eWEm.gif" alt="product7" class="img-responsive"></li><small>Product 7</small></div>
+            <div class="col-xs-3">
+              <li><img src="http://i.imgur.com/Fk6eWEm.gif" alt="product8" class="img-responsive"></li><small>Product 8</small></div>
+          </ul>
+        </div>
+        <div class="item">
+          <ul class="list-inline products">
+
+            <div class="col-xs-3">
+              <li><img src="http://i.imgur.com/Fk6eWEm.gif" alt="product9" class="img-responsive"></li><small>Product 9</small></div>
+            <div class="col-xs-3">
+              <li><img src="http://i.imgur.com/Fk6eWEm.gif" alt="product10" class="img-responsive"></li><small>Product 10</small></div>
+            <div class="col-xs-3">
+              <li><img src="http://i.imgur.com/Fk6eWEm.gif" alt="product11" class="img-responsive"></li><small>Product 11</small></div>
+            <div class="col-xs-3">
+              <li><img src="http://i.imgur.com/Fk6eWEm.gif" alt="product12" class="img-responsive"></li><small>Product 12</small></div>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#work" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#work" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="other" class="container-fluid bg-5 no-padding ">
+  <div class="row-5">
+    <div class="row ">
+      <div class=" col-sm-4 col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h2 class="text-center pricingh">Start Up<br/><small class="pricingr">For beginners</small></h2>
+          </div>
+          <div class="panel-heading text-center">Basic pages</div>
+          <div class="panel-heading text-center">MySQL Databases</div>
+          <div class="panel-heading text-center">Bandwidth</div>
+          <div class="panel-heading text-center">Storage space</div>
+          <div class="panel-body pricingi">
+            <h2 class="text-left ">$15<small>/mon</small><button class="btn pull-right">Order</button></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h2 class="text-center pricingr">Standard<br/><small>More than what you have dreamed with</small></h2>
+          </div>
+          <div class="panel-heading text-center">Standard pages</div>
+          <div class="panel-heading text-center">MySQL Databases</div>
+          <div class="panel-heading text-center">Bandwidth</div>
+          <div class="panel-heading text-center">Storage space</div>
+          <div class="panel-body pricingri">
+            <h2 class="text-left ">$25<small>/mon</small><button class="btn pull-right pricingr">Order</button></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h2 class="text-center pricingh">Professional<br/><small class="pricingr">For smart people</small></h2>
+          </div>
+          <div class="panel-heading text-center">Basic pages</div>
+          <div class="panel-heading text-center">MySQL Databases</div>
+          <div class="panel-heading text-center">Bandwidth</div>
+          <div class="panel-heading text-center">Storage space</div>
+          <div class="panel-body pricingi">
+            <h2 class="text-left ">$35<small>/mon</small><button class="btn pull-right">Order</button></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row"></div>
+  <h3 class="text-center"><small>And more available plans for all needs...Check here</small></h3>
+  <div class="row-6">
+    <div class="row text-center">
+      <h2 class="text-center">Latest Tweets<br/><small class="bt">This is how to keep in touch :)</small><h2>
+
+  <div class=" bt glyphicon glyphicon-circle-arrow-left col-xs-2 col-md-4"></div><div class="col-md-4 col-xs-8"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqr0SGtem7Z5yj1j8dFSO7QpIYqd-EYy-nwzMJdewoX4AYP-CR" alt="twitter-icon" width"25px" height="25px" class="img-circle"><div class="tweet"><h4><strong>@abctwitter: </strong>Great work keep it up!</h4></div></div><div class="bt glyphicon glyphicon-circle-arrow-right col-md-4 col-xs-2"></div>
+  </div>
+</div>
+  <footer class=" text-center"><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>2016 Motion Template.Design by XYZ</footer>
+  </div>
+
+<div id="contact"class="container-fluid no-padding bg-6">
+  <div id="map_container"></div>
+	  <div id="map"></div>
+</div>
+</body>
+</html>
